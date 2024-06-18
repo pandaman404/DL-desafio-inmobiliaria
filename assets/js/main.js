@@ -7,8 +7,8 @@ var propiedadesAlquiler = [
     habitaciones: 2,
     banos: 2,
     costo: 2000,
-    smoke: 'No se permite fumar',
-    pet: 'Mascotas permitidas',
+    smoke: false,
+    pet: true,
   },
 ];
 
@@ -21,8 +21,8 @@ var propiedadesVenta = [
     habitaciones: 4,
     banos: 4,
     costo: 5000,
-    smoke: 'No se permite fumar',
-    pet: 'No se permiten mascotas',
+    smoke: false,
+    pet: false,
   },
 ];
 
@@ -90,8 +90,8 @@ function initialLoad() {
       habitaciones: 2,
       banos: 1,
       costo: 1200,
-      smoke: 'Permitido fumar',
-      pet: 'Mascotas permitidas',
+      smoke: true,
+      pet: true,
     },
     {
       nombre: 'Penthouse de lujo con terraza panorámica',
@@ -101,8 +101,8 @@ function initialLoad() {
       habitaciones: 3,
       banos: 3,
       costo: 4500,
-      smoke: 'No se permite fumar',
-      pet: 'Mascotas permitidas',
+      smoke: false,
+      pet: true,
     },
     {
       nombre: 'Casa familiar en zona residencial',
